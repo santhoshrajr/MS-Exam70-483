@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MultiThreading_Async",
+    "\\MultiThreading_Async\\TaskParallelLibrary",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Debug\\netcoreapp2.1",
+    "\\obj\\Release"
+  ],
+  "SelectedNode": "\\MultiThreading_Async\\TaskParallelLibrary\\ParallelInvoke.cs",
+  "PreviewInSolutionExplorer": false
+}
