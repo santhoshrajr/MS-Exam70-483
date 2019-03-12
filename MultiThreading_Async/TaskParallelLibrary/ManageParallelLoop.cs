@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 namespace MS_Exam70_483.MultiThreading_Async.TaskParallelLibrary
-{
+{ 
     public class ManageParallelLoop
     {
         static void WorkOnItem(object item)

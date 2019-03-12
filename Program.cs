@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using MS_Exam70_483.MultiThreading_Async.ParallelLINQ;
 using MS_Exam70_483.MultiThreading_Async.TaskParallelLibrary;
 
 namespace MS_Exam70_483
@@ -8,7 +9,7 @@ namespace MS_Exam70_483
     {
         static void Main(string[] args)
         {
-            TPLManageParallel();
+            PLinqAsParallel();
         }
         public static void TPLInvoke() 
         {
@@ -26,6 +27,16 @@ namespace MS_Exam70_483
         public static void TPLManageParallel()
         {
             ManageParallelLoop.Process();
+        }
+        public static void PLinqAsParallel()
+        {
+            Person person = new Person();
+            person.PLinq();
+            person.PLinq_ForceParalleization();
+            person.PLinq_AsOrdered();
+            person.Plinq_AsSequential();
+            person.Plinq_ForAll();
+            person.Plinq_Exception();
         }
     }
 }

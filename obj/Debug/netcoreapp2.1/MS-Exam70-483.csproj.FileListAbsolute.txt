@@ -9,3 +9,5 @@
 /mnt/d/Santhosh/MS-Exam70-483/bin/Debug/netcoreapp2.1/MS-Exam70-483.pdb
 /mnt/d/Santhosh/MS-Exam70-483/obj/Debug/netcoreapp2.1/MS-Exam70-483.dll
 /mnt/d/Santhosh/MS-Exam70-483/obj/Debug/netcoreapp2.1/MS-Exam70-483.pdb
+D:/Santhosh/MS-Exam70-483/obj/Debug/netcoreapp2.1/MS-Exam70-483.dll
+D:/Santhosh/MS-Exam70-483/obj/Debug/netcoreapp2.1/MS-Exam70-483.pdb
