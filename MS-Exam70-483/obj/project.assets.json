@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Santhosh\\MS-Exam70-483\\MS-Exam70-483\\MS-Exam70-483.csproj",
+      "projectUniqueName": "D:\\Santhosh\\MS-Exam\\MS-Exam70-483\\MS-Exam70-483.csproj",
       "projectName": "MS-Exam70-483",
-      "projectPath": "D:\\Santhosh\\MS-Exam70-483\\MS-Exam70-483\\MS-Exam70-483.csproj",
+      "projectPath": "D:\\Santhosh\\MS-Exam\\MS-Exam70-483\\MS-Exam70-483.csproj",
       "packagesPath": "C:\\Users\\santh\\.nuget\\packages\\",
-      "outputPath": "D:\\Santhosh\\MS-Exam70-483\\MS-Exam70-483\\obj\\",
+      "outputPath": "D:\\Santhosh\\MS-Exam\\MS-Exam70-483\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
