@@ -1,0 +1,11 @@
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\bin\Debug\netcoreapp2.1\MS-Exam70-483.deps.json
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\bin\Debug\netcoreapp2.1\MS-Exam70-483.runtimeconfig.json
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\bin\Debug\netcoreapp2.1\MS-Exam70-483.runtimeconfig.dev.json
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\bin\Debug\netcoreapp2.1\MS-Exam70-483.dll
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\bin\Debug\netcoreapp2.1\MS-Exam70-483.pdb
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\obj\Debug\netcoreapp2.1\MS-Exam70-483.csprojAssemblyReference.cache
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\obj\Debug\netcoreapp2.1\MS-Exam70-483.csproj.CoreCompileInputs.cache
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\obj\Debug\netcoreapp2.1\MS-Exam70-483.AssemblyInfoInputs.cache
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\obj\Debug\netcoreapp2.1\MS-Exam70-483.AssemblyInfo.cs
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\obj\Debug\netcoreapp2.1\MS-Exam70-483.dll
+D:\Santhosh\MS-Exam70-483\MS-Exam70-483\obj\Debug\netcoreapp2.1\MS-Exam70-483.pdb
