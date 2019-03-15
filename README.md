@@ -5,3 +5,4 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 # Day2 : Parallel Linq - AsParallel, Ordered, Sequential & ForAll
 # Day3 : Strategy Pattern
 # Day4 : Tasks
+# Day5 : Threads
