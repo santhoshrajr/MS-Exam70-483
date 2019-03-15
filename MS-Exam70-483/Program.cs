@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Threading;
 using MS_Exam70_483.MultiThreading_Async.ParallelLINQ;
 using MS_Exam70_483.MultiThreading_Async.TaskParallelLibrary;
 using MS_Exam70_483.MultiThreading_Async.Tasks;
+using MS_Exam70_483.MultiThreading_Async.Threads;
 
 namespace MS_Exam70_483
 {
@@ -9,7 +11,7 @@ namespace MS_Exam70_483
     {
         static void Main(string[] args)
         {
-            Tasks();
+            ThreadMethods();
         }
         public static void TPLInvoke()
         {
@@ -46,6 +48,20 @@ namespace MS_Exam70_483
             CreateTask.WaitAll();
             CreateTask.ContinuationTask();
             CreateTask.ChildTasks();
+        }
+        public static void ThreadMethods()
+        {
+            Threads.CreateThread();
+            Threads.CreateThreadLambda();
+            Threads.PassDataToThread();
+            Threads.PassDataToThreadLambda();
+            //Threads.AbortThread();
+            Threads.AbortThreadBySharedVariable();
+            Threads.ThreadSynchronization();
+            Threads.ThreadLocal();
+            Thread.CurrentThread.Name = "Main Method";
+            Threads.DisplayThread(Thread.CurrentThread);
+            Threads.ThreadPoolQueue();
         }
     }
 }
