@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using MS_Exam70_483.DependencyInjection;
 using MS_Exam70_483.MultiThreading_Async.ParallelLINQ;
 using MS_Exam70_483.MultiThreading_Async.TaskParallelLibrary;
 using MS_Exam70_483.MultiThreading_Async.Tasks;
@@ -12,6 +13,7 @@ namespace MS_Exam70_483
         static void Main(string[] args)
         {
             ThreadMethods();
+            
         }
         public static void TPLInvoke()
         {
