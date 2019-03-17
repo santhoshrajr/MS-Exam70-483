@@ -7,3 +7,4 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 # Day4 : Tasks
 # Day5 : Threads
 # Day6 : Dependency Injection
+# Day7 : Adapter Pattern
