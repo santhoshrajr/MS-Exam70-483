@@ -83,8 +83,5 @@ namespace MS_Exam70_483.DependencyInjection.DIAfter
             dog.Speak();
             cow.Speak();
         }
-       
-        
-
     }
 }
