@@ -15,3 +15,5 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 # Day12: Monotlithic vs Microservices
 # Day13: Observer Pattern
 # Day14: Decorator Pattern
+# Day15: Null Object Pattern
+# Day16: Singleton Pattern
