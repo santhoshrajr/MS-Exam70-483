@@ -18,3 +18,4 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 # Day15: Null Object Pattern
 # Day16: Singleton Pattern
 # Day17: State Design Pattern
+# Day18: Command Pattern
