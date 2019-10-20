@@ -19,3 +19,5 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 # Day16: Singleton Pattern
 # Day17: State Design Pattern
 # Day18: Command Pattern
+---------------Couldnt continue the challenge starting over---------
+# Day 1: Async/Awaits
