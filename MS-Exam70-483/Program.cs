@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 using MS_Exam70_483.DependencyInjection;
 using MS_Exam70_483.MultiThreading_Async.ParallelLINQ;
 using MS_Exam70_483.MultiThreading_Async.TaskParallelLibrary;
@@ -10,9 +11,9 @@ namespace MS_Exam70_483
 {
     class Program
     {
-        static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            ThreadMethods();
+             await Async();
             
         }
         public static void TPLInvoke()
@@ -50,6 +51,11 @@ namespace MS_Exam70_483
             CreateTask.WaitAll();
             CreateTask.ContinuationTask();
             CreateTask.ChildTasks();
+        }
+        public static async Task<double> Async()
+        {
+            AsyncAwait asyncAwait = new AsyncAwait();
+            return await asyncAwait.GetAverageAsync(1000000000);
         }
         public static void ThreadMethods()
         {
