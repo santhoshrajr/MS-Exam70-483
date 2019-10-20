@@ -20,4 +20,4 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 # Day17: State Design Pattern
 # Day18: Command Pattern
 ---------------Couldnt continue the challenge starting over---------
-# Day 1: Async/Awaits
+# Day 1: Async/Await
