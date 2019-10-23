@@ -22,3 +22,4 @@ This is an ongoing effort in my challenge of <b> 100DaysOfCode</b>
 ---------------Couldnt continue the challenge starting over---------
 # Day 1: Async/Await
 # Day 2: Locks
+# Day 2: Monitors & DeadLocks

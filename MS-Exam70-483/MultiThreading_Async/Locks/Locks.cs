@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MS_Exam70_483.MultiThreading_Async.Locks
@@ -82,5 +83,32 @@ namespace MS_Exam70_483.MultiThreading_Async.Locks
                 sharedTotal = sharedTotal+subTotal;
             }
         }
+
+        static object sharedTotalLockMonitor = new object();
+
+        static void AddRangeOfvaluesUsingMonitor(int start, int end)
+        {
+            long subTotal = 0;
+
+            while(start < end)
+            {
+                subTotal += items[start];
+                start++;
+            }
+            Monitor.Enter(sharedTotalLockMonitor);
+            sharedTotal += subTotal;
+            Monitor.Exit(sharedTotalLockMonitor);
+        }
+        static void AddRangeOfValuesInterlocked(int start, int end)
+        {
+            long subTotal = 0;
+            while(start < end)
+            {
+                subTotal += items[start];
+                start++;
+            }
+            Interlocked.Add(ref sharedTotal, subTotal);
+        }
+        
     }
 }
